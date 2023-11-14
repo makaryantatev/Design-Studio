@@ -1,0 +1,312 @@
+/* ////// HEADER ///// */
+@keyframes header-img4{
+    from{
+        transform: translate(100px, 10px) scale(0.6) rotate(-100deg) skew(10deg, 10deg);
+    }
+    to{
+        transform: translate(0, 0) scale(1) rotate(0) skew(0);
+    }
+}
+@keyframes header-img3{
+    from{
+        transform: translate(120px, 10px) rotate(180deg) scale(0.7);
+    }
+    to{
+        transform: translate(0, 0) rotate(0) scale(1);
+    }
+}
+@keyframes header-img2{
+    from{
+        transform: translate(-150px, 10px) scale(0.7) rotate(100deg);
+    }
+    to{
+        transform: translate(0, 0) scale(1) rotate(0);
+    }
+}
+@keyframes header-img1{
+    from{
+        transform: translate(-125px, 10px) scale(0.7);
+    }
+    to{
+        transform: translate(0, 0) scale(1);
+    }
+}
+@keyframes h2{
+    from{
+        transform: scale(0.3);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+@keyframes nav{
+    from{
+        transform: scale(0.3);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+/* ////// SECTION 1 ///// */
+@keyframes sc1-img{
+    from{
+        transform: translate(-150px, 0);
+    }
+    to{
+        transform: translate(0, 0);
+    }
+}
+@keyframes sc1-p1{
+    from{
+        opacity: 0.6;
+        color: #b991dd;
+        transform: scale(1.5);
+    }
+    to{
+        opacity: 1;
+        color: #702bb1;
+        transform: scale(1);
+    }
+}
+@keyframes sc1-p2{
+    from{
+        transform: translate(150px, 0) scale(0.8);
+    }
+    to{
+        transform: translate(0, 0) scale(1);
+    }
+}
+@keyframes sc1-p3{
+    from{
+        transform: translate(150px, 0) scale(0.8);
+    }
+    to{
+        transform: translate(0, 0) scale(1);
+    }
+}
+/* ////// SECTION 2 ///// */
+@keyframes sc2-img1{
+    from{
+        transform: scale(0.2);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+@keyframes sc2-img2{
+    from{
+        opacity: 0.5;
+        transform: translate(-100px, 0) scale(0.5);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0, 0) scale(1);
+    }
+}
+@keyframes sc2-div2-div1{
+    from{
+        transform: translate(0, -200px);
+    }
+    to{
+        transform: translate(0, 0);
+    }
+}
+@keyframes sc2-div2-div2{
+    from{
+        transform: translate(0, 200px);
+    }
+    to{
+        transform: translate(0, 0);
+    }
+}
+@keyframes sc2-div1-div1{
+    from{
+        opacity: 0.5;
+        transform: translate(150px, 0) rotate(180deg);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0, 0) rotate(0);
+    }
+}
+@keyframes sc2-div1-div2 {
+    from{
+        opacity: 0.5;
+        transform: translate(150px, 0) rotate(180deg);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0, 0) rotate(0);
+    }
+}
+/* ////// SECTION 3 ///// */
+@keyframes sc3-div2{
+    from{
+        opacity: 0.7;
+        transform: translate(-200px, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+@keyframes sc3-img1{
+    from{
+        opacity: 0.7;
+        transform: scale(1.5) translate(-50px, 0) rotate(100deg);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1) translate(0, 0) rotate(0);
+    }
+}
+@keyframes sc3-img2{
+    from{
+        opacity: 0.7;
+        transform: scale(1.5);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes sc3-img3{
+    from{
+        transform: scale(1.2) translate(150px, 0);
+    }
+    to{
+        transform: scale(1) translate(0, 0);
+    }
+}
+@keyframes sc3-img4{
+    from{
+        transform: scale(0.2) translate(150px, 0) rotate(360deg);
+    }
+    to{
+        transform: scale(1) translate(0, 0) rotate(0);
+    }
+}
+@keyframes sc3-img5{
+    from{
+        opacity: 0.7;
+        transform: scale(0.2) translate(0, 200px) rotate(30deg);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1) translate(0, 0) rotate(0);
+    }
+}
+/* ////// SECTION 4 ///// */
+@keyframes sc4-div2-div1{
+    from{
+        opacity: 0.5;
+        transform: translate(200px, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+@keyframes sc4-img1{
+    from{
+        transform: scale(1.2) translate(300px, -100px) rotate(200deg);
+    }
+    to{
+        transform: scale(1) translate(0, 0) rotate(0);
+    }
+}
+@keyframes sc4-img2{
+    from{
+        transform: translate(-150px, 10px) rotate(-200deg);
+    }
+    to{
+        transform: translate(0, 0) rotate(0);
+    }
+}
+@keyframes sc4-img3{
+    from{
+        transform: translate(-150px, 150px) rotate(60deg);
+    }
+    to{
+        transform: translate(0, 0) rotate(0);
+    }
+}
+@keyframes sc4-img4{
+    from{
+        transform: translate(0, 100px);
+    }
+    to{
+        transform: translate(0, 0);
+    }
+}
+/* ////// SECTION 5 ///// */
+@keyframes sc5-div1{
+    from{
+        transform: rotate(10deg) translate(0, -350px);
+    }
+    to{
+        transform: rotate(0) translate(0, 0);
+    }
+}
+/* ////// SECTION 6 ///// */
+@keyframes sc6-img1{
+    from{
+        opacity: 0.6;
+        transform: scale(0.3);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes sc6-img2{
+    from{
+        transform: scale(0.8) translate(-100px, 10px) rotate(20deg);
+    }
+    to{
+        transform: scale(1) translate(0, 0) rotate(0);
+    }
+}
+@keyframes sc6-img3{
+    from{
+        transform: scale(0.8) translate(100px, 100px);
+    }
+    to{
+        transform: scale(1) translate(0, 0);
+    }
+}
+@keyframes sc6-img4{
+    from{
+        transform: scale(0.8) translate(200px, 50px) rotate(360deg);
+    }
+    to{
+        transform: scale(1) translate(0, 0) rotate(0);
+    }
+}
+@keyframes sc6-img5{
+    from{
+        transform: scale(0.5) rotate(360deg);
+    }
+    to{
+        transform: scale(1) rotate(0);
+    }
+}
+@keyframes sc6-img6{
+    from{
+        transform: scale(0.5) translate(-100px, 0);
+    }
+    to{
+        transform: scale(1) translate(0, 0);
+    }
+}
+@keyframes sc6-img6-1{
+    0%{
+        transform: transform(0, 0);
+    }
+    50%{
+        transform: translate(0, -100px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
